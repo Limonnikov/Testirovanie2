@@ -9,13 +9,23 @@ public class Arguments : Side
     public int safeFamily { get; set; }
     public bool accepted = false;
     
-    public Arguments(int[] arr, Side side) : base(side.profession, side.stage, side)
+    public Arguments(int[] arr, Criminal criminal, Side side) : base(side.profession, side.stage, side)
     {   
         severity = arr[0];
         aggravating = arr[1];
         victims = arr[2];
         badIntentions = arr[3];
         safeFamily = arr[4];
+
+        int score = GetFinallyMark();
+        if (side.profession == "Advocat")
+        {
+            criminal.scoreAdv = score;
+        }
+        else
+        {
+            criminal.scoreProc = score;
+        }
     }
 
     public int GetFinallyMark()

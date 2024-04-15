@@ -15,14 +15,14 @@ public class Side : Human // сторона защиты (адвокат) или
 
     }
 
-    public Arguments GetArguments()
+    public Arguments GetArguments(Criminal criminal)
     {
         int[] arr = new int[5];
         Side side = this as Side;
-        Arguments arguments = new Arguments(arr, side);
+        Arguments arguments = new Arguments(arr, criminal, side);
         return arguments;
     }
-    public Arguments GetArguments(int a, int b, int c, int d, int e)
+    public Arguments GetArguments(Criminal criminal, int a, int b, int c, int d, int e)
     {
         int[] arr = new int[5];
         arr[0] = a;
@@ -31,7 +31,7 @@ public class Side : Human // сторона защиты (адвокат) или
         arr[3] = d;
         arr[4] = e;
         Side side = this as Side;
-        Arguments arguments = new Arguments(arr, side);
+        Arguments arguments = new Arguments(arr, criminal, side);
         return arguments;
     }
 }
