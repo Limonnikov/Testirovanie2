@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Bicl/nKnUlXA8aX7uus6BrEXoguzOMclvZoEgpOWBCdc0k99TzFTTmbDPBW9i/wqQlzAExqmn+ZgdvTX5k3Gyw==",
+  "dgSpecHash": "+EHYYrLCK3LKN3s0AOzvGz+ubxzdMUvPI/F6Vq9ee/F6OCRAdMaZH97COW0e6o0pEPz2vF5R0A+s+y8XVzp/nw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lexus\\RiderProjects\\TestProject1\\TestProject1\\TestProject1.csproj",
   "expectedPackageFiles": [
@@ -49,7 +49,10 @@
     "C:\\Users\\Lexus\\.nuget\\packages\\system.threading.tasks\\4.0.11\\system.threading.tasks.4.0.11.nupkg.sha512",
     "C:\\Users\\Lexus\\.nuget\\packages\\system.threading.tasks.extensions\\4.0.0\\system.threading.tasks.extensions.4.0.0.nupkg.sha512",
     "C:\\Users\\Lexus\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
-    "C:\\Users\\Lexus\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
+    "C:\\Users\\Lexus\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
+    "C:\\Users\\Lexus\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Lexus\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\Lexus\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512"
   ],
   "logs": []
 }
