@@ -18,7 +18,7 @@ public class DB
         Human Petya = new Human("Petya", 28, true);
         Human Anya = new Human("Anya", 21, true);
         Human Ilya = new Human("Ilya", 100, true);
-        Human Masha = new Human("Masha", 18, true);
+        Human Masha = new Human("Anya", 18, true);
         criminals[0] = new Criminal(100, Crime.set_fire,Sanya);
         criminals[1] = new Criminal(1, Crime.murder,Petya);
         criminals[2] = new Criminal(30, Crime.abuse_of_official_position,Anya);

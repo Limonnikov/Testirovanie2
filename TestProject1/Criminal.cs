@@ -19,7 +19,6 @@ public class Criminal : Human
         Luck = luck_;
         crime = crime_;
         Free = false;
-        TryAWayOut();
     }
     
     public void TryAWayOut()

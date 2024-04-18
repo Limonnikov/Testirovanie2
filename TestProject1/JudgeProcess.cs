@@ -12,10 +12,10 @@ public class JudgeProcess
         var Shepoklyak = new Human("Shepoklyak", 63, true);
         var Krisa = new Human(crimeName, 18, true);
 
+        var criminal = new Criminal(luck, crime, Krisa);
         var advocat = new Side("Advocat", stage_a, Gena);
         var procuror = new Side("Procuror", stage_p, Cheburashka);
         var judge = new Judge(stage_j, Shepoklyak);
-        var criminal = new Criminal(luck, crime, Krisa);
         var db = new DB();
         
         criminal.TryAWayOut();
@@ -29,7 +29,7 @@ public class JudgeProcess
     public string PrigovorSummury()
     {
         if (prigovor.isFree && prigovor.Vinoven)
-            return "Пподсудимый сбежал!";
+            return "Подсудимый сбежал!";
         else if (prigovor.isFree && !prigovor.Vinoven)
             return "Подсудимый полностью оправдан. Полный успех адвоката";
         else if (prigovor.betterCrime)
