@@ -25,4 +25,16 @@ public class JudgeProcess
 
         prigovor = judge.getPrigivor(criminal, db);
     }
+
+    public string PrigovorSummury()
+    {
+        if (prigovor.isFree && prigovor.Vinoven)
+            return "Пподсудимый сбежал!";
+        else if (prigovor.isFree && !prigovor.Vinoven)
+            return "Подсудимый полностью оправдан. Полный успех адвоката";
+        else if (prigovor.betterCrime)
+            return "Подсудимый виновен, но приговор смягчен. Какой никакой, но успех адвоката";
+        else 
+            return "Подсудимый наказан по всей строгости. Провал адвоката";
+    }
 }

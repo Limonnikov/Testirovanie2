@@ -3,7 +3,10 @@ namespace TestProject1;
 public class Prigovor
 {
     public string name { get; set; }
+    public bool isFree { get; set; }
+    public bool Vinoven { get; set; }
     public Crime crime { get; set; }
+    public bool betterCrime { get; set; }
     public int skolkoSidet { get; set; }
 
     public Prigovor(Criminal criminal, int score)
@@ -30,7 +33,10 @@ public class Prigovor
         else if (score <= 3)
         {
             if (criminal.crimeAdvokat != Crime.innocent)
+            {
                 criminal.crime = criminal.crimeAdvokat;
+                betterCrime = true;
+            }
             criminal.Vinoven = true;
             criminal.Free = false;
             skolkoSidet = score;
@@ -42,5 +48,7 @@ public class Prigovor
             skolkoSidet = score;
         }
         crime = criminal.crime;
+        isFree = criminal.getFree();
+        Vinoven = criminal.getVinoven();
     }
 }

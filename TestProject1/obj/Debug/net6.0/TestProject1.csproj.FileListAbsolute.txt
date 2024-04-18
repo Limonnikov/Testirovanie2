@@ -91,9 +91,10 @@ C:\Users\Lexus\RiderProjects\TestProject1\TestProject1\obj\Debug\net6.0\TestProj
 C:\Users\Lexus\RiderProjects\TestProject1\TestProject1\obj\Debug\net6.0\TestProject1.AssemblyInfoInputs.cache
 C:\Users\Lexus\RiderProjects\TestProject1\TestProject1\obj\Debug\net6.0\TestProject1.AssemblyInfo.cs
 C:\Users\Lexus\RiderProjects\TestProject1\TestProject1\obj\Debug\net6.0\TestProject1.csproj.CoreCompileInputs.cache
-C:\Users\Lexus\RiderProjects\TestProject1\TestProject1\obj\Debug\net6.0\TestProject1.csproj.CopyComplete
 C:\Users\Lexus\RiderProjects\TestProject1\TestProject1\obj\Debug\net6.0\TestProject1.dll
 C:\Users\Lexus\RiderProjects\TestProject1\TestProject1\obj\Debug\net6.0\refint\TestProject1.dll
 C:\Users\Lexus\RiderProjects\TestProject1\TestProject1\obj\Debug\net6.0\TestProject1.pdb
 C:\Users\Lexus\RiderProjects\TestProject1\TestProject1\obj\Debug\net6.0\TestProject1.genruntimeconfig.cache
 C:\Users\Lexus\RiderProjects\TestProject1\TestProject1\obj\Debug\net6.0\ref\TestProject1.dll
+C:\Users\Lexus\RiderProjects\TestProject1\TestProject1\obj\Debug\net6.0\TestProject1.sourcelink.json
+C:\Users\Lexus\RiderProjects\TestProject1\TestProject1\obj\Debug\net6.0\TestProj.494AA513.Up2Date
