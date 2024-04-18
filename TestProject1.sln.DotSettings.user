@@ -14,6 +14,13 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::B41B0E73-9299-45ED-B8A6-0505D804F030::net6.0::TestProject1.State_Tests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::B41B0E73-9299-45ED-B8A6-0505D804F030::net6.0::TestProject1.Ways_Tests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::B41B0E73-9299-45ED-B8A6-0505D804F030::net6.0::TestProject1.Features_Tests.Test1_2_1&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::B41B0E73-9299-45ED-B8A6-0505D804F030::net6.0::TestProject1.Features_Tests.Test1_2_6&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::B41B0E73-9299-45ED-B8A6-0505D804F030::net6.0::TestProject1.Features_Tests.Test1_6_1&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::B41B0E73-9299-45ED-B8A6-0505D804F030::net6.0::TestProject1.Features_Tests.Test1_7_2&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::B41B0E73-9299-45ED-B8A6-0505D804F030::net6.0::TestProject1.Features_Tests.Test1_7_6&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::B41B0E73-9299-45ED-B8A6-0505D804F030::net6.0::TestProject1.Features_Tests.Test1_1_1&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::B41B0E73-9299-45ED-B8A6-0505D804F030::net6.0::TestProject1.Features_Tests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7310c93c_002D491b_002D4ba3_002D9cb4_002D07ffd787fc90/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test3_4_6" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;

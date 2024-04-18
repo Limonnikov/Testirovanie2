@@ -9,7 +9,7 @@ public class Criminal : Human
     public int countCrime = 0;
     public bool sbejal { get; set; }
     public Crime crime { get; set; }
-    public Crime crimeAdvokat { get; set; }
+    public Crime crimeAdvokat = Crime.innocent;
     
     public int Luck { get; set; }
     public bool Free { get; set; }
