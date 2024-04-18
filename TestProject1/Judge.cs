@@ -17,7 +17,7 @@ public class Judge : Human
         criminal.countCrime = db.returnCountCrime(criminal);
     }
 
-    public void getPrigivor(Criminal criminal, DB db)
+    public Prigovor getPrigivor(Criminal criminal, DB db)
     {
         searchDB(criminal, db);
         int result = criminal.scoreAdv + criminal.scoreProc;
@@ -29,6 +29,7 @@ public class Judge : Human
 
         result -= criminal.Luck / 2;
 
-        
+        Prigovor prigovor = new Prigovor(criminal, result);
+        return prigovor;
     }
 }

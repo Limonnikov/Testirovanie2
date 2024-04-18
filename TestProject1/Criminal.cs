@@ -7,6 +7,7 @@ public class Criminal : Human
     public int scoreProc = 0;
     public int scoreAdv = 0;
     public int countCrime = 0;
+    public bool sbejal { get; set; }
     public Crime crime { get; set; }
     public Crime crimeAdvokat { get; set; }
     
@@ -24,10 +25,9 @@ public class Criminal : Human
     public void TryAWayOut()
     {
         Random r = new Random();
-        if (r.Next(0, 101) + Luck >= 100)
+        if (r.Next(0, 91) + Luck >= 100)
         {
-            Free = true;
-            Vinoven = true;
+            sbejal = true;
         }
     }
     public bool getFree()

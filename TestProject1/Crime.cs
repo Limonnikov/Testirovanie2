@@ -2,7 +2,7 @@ namespace TestProject1;
 
 public enum Crime
 {
-    innocent, // невинове
+    innocent, // невиновен
     murder, // убийство 
     theft, // кража
     robbery, // отграбление

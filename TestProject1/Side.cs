@@ -11,7 +11,7 @@ public class Side : Human // сторона защиты (адвокат) или
         if (stage_ <= age - 22)
             stage = stage_;
         else
-            stage = 0;
+            stage = age - 22;
 
     }
     
@@ -22,11 +22,14 @@ public class Side : Human // сторона защиты (адвокат) или
             criminal.crimeAdvokat = crime;
         }
         int[] arr = new int[5];
-        arr[0] = a;
-        arr[1] = b;
-        arr[2] = c;
-        arr[3] = d;
-        arr[4] = e;
+        if (isWorker)
+        {
+            arr[0] = a;
+            arr[1] = b;
+            arr[2] = c;
+            arr[3] = d;
+            arr[4] = e;
+        }
         Side side = this as Side;
         Arguments arguments = new Arguments(arr, criminal, side);
         return arguments;

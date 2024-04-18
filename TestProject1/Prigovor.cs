@@ -14,7 +14,13 @@ public class Prigovor
 
     public void setPrigivor(Criminal criminal, int score)
     {
-        if (score <= 0)
+        if (criminal.sbejal)
+        {
+            criminal.Vinoven = true;
+            criminal.Free = true;
+            skolkoSidet = 100;
+        }
+        else if (score <= 0)
         {
             criminal.crime = Crime.innocent;
             criminal.Vinoven = false;
