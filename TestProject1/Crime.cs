@@ -2,12 +2,13 @@ namespace TestProject1;
 
 public enum Crime
 {
-    murder,
-    theft,
-    robbery,
-    terrorism,
-    arson,
-    abuse_of_official_position,
-    injuries,
-    repost_on_VK
+    innocent, // невинове
+    murder, // убийство 
+    theft, // кража
+    robbery, // отграбление
+    terrorism, // терроризм
+    set_fire, // поджег
+    abuse_of_official_position, // злоупотребление служебкой
+    injuries, // телесные повреждения
+    repost_on_VK // репосты
 }

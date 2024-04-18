@@ -17,8 +17,18 @@ public class Judge : Human
         criminal.countCrime = db.returnCountCrime(criminal);
     }
 
-    public void getPrigivor()
+    public void getPrigivor(Criminal criminal, DB db)
     {
+        searchDB(criminal, db);
+        int result = criminal.scoreAdv + criminal.scoreProc;
+
+        if (criminal.countCrime == 0) result -= 10;
+        else if (criminal.countCrime == 1) result += 5;
+        else if (criminal.countCrime == 2) result += 10;
+        else result += 15;
+
+        result -= criminal.Luck / 2;
+
         
     }
 }

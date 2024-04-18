@@ -14,16 +14,13 @@ public class Side : Human // сторона защиты (адвокат) или
             stage = 0;
 
     }
-
-    public Arguments GetArguments(Criminal criminal)
+    
+    public Arguments GetArguments(Criminal criminal, Crime crime, int a, int b, int c, int d, int e)
     {
-        int[] arr = new int[5];
-        Side side = this as Side;
-        Arguments arguments = new Arguments(arr, criminal, side);
-        return arguments;
-    }
-    public Arguments GetArguments(Criminal criminal, int a, int b, int c, int d, int e)
-    {
+        if (profession == "Advocat")
+        {
+            criminal.crimeAdvokat = crime;
+        }
         int[] arr = new int[5];
         arr[0] = a;
         arr[1] = b;

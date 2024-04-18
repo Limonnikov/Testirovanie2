@@ -19,11 +19,11 @@ public class DB
         Human Anya = new Human("Anya", 21, true);
         Human Ilya = new Human("Ilya", 100, true);
         Human Masha = new Human("Masha", 18, true);
-        criminals[0] = new Criminal(100, Sanya);
-        criminals[1] = new Criminal(1, Petya);
-        criminals[2] = new Criminal(30, Anya);
-        criminals[3] = new Criminal(47, Ilya);
-        criminals[4] = new Criminal(79, Masha);
+        criminals[0] = new Criminal(100, Crime.set_fire,Sanya);
+        criminals[1] = new Criminal(1, Crime.murder,Petya);
+        criminals[2] = new Criminal(30, Crime.abuse_of_official_position,Anya);
+        criminals[3] = new Criminal(47, Crime.repost_on_VK,Ilya);
+        criminals[4] = new Criminal(79, Crime.theft,Masha);
         
     }
 
